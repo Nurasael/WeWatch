@@ -1,0 +1,26 @@
+.sidebar {
+  display: flex;
+  width: 300pt;
+  flex-direction: column;
+  border-left: 1px solid #000f2f;
+}
+
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid #000f2f;
+}
+
+.topbar .menu {
+  display: flex;
+  font-size: 24pt;
+  outline: none;
+  background: none;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}

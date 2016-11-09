@@ -1,0 +1,24 @@
+.component {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  border-top: 1px solid black;
+}
+
+.controls {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.playerVolume {
+  width: 100px;
+}
+
+.playerPlay {
+  width: 100px;
+}
+
+.playerFordward {
+  width: 100px;
+}

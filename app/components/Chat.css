@@ -1,0 +1,33 @@
+.chat {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.chatbox {
+  display: block; /* 1 */
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  padding: 10px;
+  height: 50vh;
+  overflow-y: auto;
+}
+
+.bottombar {
+  display: flex;
+  height: 100px;
+  border-top: 1px solid #000f2f;
+}
+
+.chatInput {
+  flex: 1;
+}
+
+.chatButton {
+  width: 100px;
+}
+
+.chatMessage {
+  height: 24px;
+}

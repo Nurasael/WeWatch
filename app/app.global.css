@@ -1,0 +1,44 @@
+@import '~normalize.css/normalize.css';
+@import "~font-awesome/css/font-awesome.css";
+@import '~plyr/dist/plyr.css';
+
+html {
+  display: flex;
+  flex: 1;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  font-family: Arial, Helvetica, Helvetica Neue, serif;
+}
+
+#root {
+  display: flex;
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.plyr {
+  display: flex;
+  flex: 1;
+}
+
+.plyr iframe {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
+
+.plyr__video-embed {
+  height: 100%;
+}
+
+
+
