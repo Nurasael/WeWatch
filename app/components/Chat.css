@@ -16,7 +16,7 @@
 
 .bottombar {
   display: flex;
-  height: 100px;
+  height: 8vh;
   border-top: 1px solid #000f2f;
 }
 
